@@ -20,7 +20,7 @@ async def on_message(message):
     return
 
   if message.content.startswith('$ola'):
-    await message.channel.send('Boa pá nois meu guerreiro!')
+    await message.channel.send('Olá. Se recebeu a minha mensagem, está tudo nos certo!')
 
 
 my_secret = os.environ['TOKEN']
